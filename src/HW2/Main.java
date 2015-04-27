@@ -6,9 +6,6 @@ public class Main {
         Person person1 = new Person();
         Person person2 = new Person();
 
-        //person1.role= Role.Dev.toString();
-        //person2.role= Role.Qa.toString();;
-
 
         System.out.println ("person1=" + person1);
         System.out.println ("person2=" + person2);

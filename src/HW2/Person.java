@@ -5,23 +5,10 @@ package HW2;
  */
 public class Person {
 
-    //final String role;
+    final String name="John";
+    final int age=20;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
 
-        Person person = (Person) o;
 
-      //  return !(role != null ? !role.equals(person.role) : person.role != null);
-return false;
-    }
-
-    @Override
-    public int hashCode() {
-       // return role != null ? role.hashCode() : 0;
-        return 0;
-    }
 }
 
